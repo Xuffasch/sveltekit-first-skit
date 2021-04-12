@@ -6,21 +6,17 @@
 	<title>Hello world!</title>
 </svelte:head>
 
-<main>
+<!-- <main> -->
 	<h1>Hello world!</h1>
 
 	<Counter />
 
 	<p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
-</main>
+
+	<a href="about">Go to About page</a>
+<!-- </main> -->
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		margin: 0 auto;
-	}
-
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;

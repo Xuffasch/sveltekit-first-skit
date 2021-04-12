@@ -1,5 +1,18 @@
 <script>
 	import '../app.css';
+	import Nav from '$components/Nav.svelte';
 </script>
 
-<slot />
+<Nav />
+
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		text-align: center;
+		padding: 1em;
+		margin: 0 auto;
+	}
+</style>
