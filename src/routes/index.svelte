@@ -3,18 +3,16 @@
 </script>
 
 <svelte:head>
-	<title>Hello world!</title>
+	<title>Welcome to my svelteKit (Beta) homepage</title>
 </svelte:head>
 
-<!-- <main> -->
-	<h1>Hello world!</h1>
+<h1>Hello world!</h1>
 
-	<Counter />
+<Counter />
 
-	<p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+<p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
 
-	<a href="about">Go to About page</a>
-<!-- </main> -->
+<a href="about">Go to About page</a>
 
 <style>
 	h1 {
