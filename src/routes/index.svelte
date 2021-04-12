@@ -1,5 +1,8 @@
+<!-- Declare status and error props to silence warnings in the browser -->
 <script>
 	import Counter from '$lib/Counter.svelte';
+	export let status;
+	export let error;
 </script>
 
 <svelte:head>
@@ -13,6 +16,9 @@
 <p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
 
 <a href="about">Go to About page</a>
+
+<!-- Declare empty slot to silence warning in browser -->
+<slot></slot>
 
 <style>
 	h1 {

@@ -1,3 +1,4 @@
+<!-- Declare status and error props to silence warnings in the browser -->
 <script>
   export let status;
   export let error;
@@ -11,4 +12,5 @@
 <p>Something went wrong !</p>
 <pre>{error.stack}</pre>
 
+<!-- Declare empty slot to silence warning in browser -->
 <slot />
