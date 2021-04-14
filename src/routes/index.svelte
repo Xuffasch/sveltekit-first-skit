@@ -1,49 +1,59 @@
+<script context="module">
+	export async function load({ page, fetch, session, context }) {
+		const { host, path, params, query } = page;
+
+		console.log("host : ", host);
+		console.log("params : ", params);
+		console.log("query : ", query);
+		console.log("path : ", path);
+
+		const url = `/data/home/usage-principals.js`;
+		const res = await fetch(url);
+		const results = await res.json();
+		console.log("fetch result : ", results); 
+
+		if (res.ok) {
+			const { requested, kind, result, count } = results;
+
+			return {
+				status: 200,
+				error: null,
+				props: {
+					requested: requested,
+					kind: kind,
+					features: result, 
+					count: count
+				}
+			}
+		}
+	}
+
+
+</script>
+
 <!-- Declare status and error props to silence warnings in the browser -->
 <script>
-	import Counter from '$lib/Counter.svelte';
-	export let status;
-	export let error;
+	export let status, error;
+	export let requested, kind, features, count;
 </script>
 
 <svelte:head>
 	<title>Welcome to my svelteKit (Beta) homepage</title>
 </svelte:head>
 
-<h1>Hello world!</h1>
+<h1>SvelteKit App Use cases</h1>
 
-<Counter />
-
-<p>Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
-
-<a href="about">Go to About page</a>
+<ul>
+	{#each features as feat}
+		<li>
+			<div>
+				<h2>{feat.useCase}</h2>
+				<p>{feat.description}</p>
+			</div>
+		</li>
+	{/each}
+</ul>
 
 <!-- Declare empty slot to silence warning in browser -->
 <slot></slot>
 
-<style>
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4rem;
-		font-weight: 100;
-		line-height: 1.1;
-		margin: 4rem auto;
-		max-width: 14rem;
-	}
-
-	p {
-		max-width: 14rem;
-		margin: 2rem auto;
-		line-height: 1.35;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			max-width: none;
-		}
-
-		p {
-			max-width: none;
-		}
-	}
-</style>
