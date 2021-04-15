@@ -1,5 +1,7 @@
 <script>
   import InputText from '$components/stores/js/InputWithStore.svelte';
+
+  import InputText2 from '$components/stores/writable/InputWithWritable.svelte';
 </script>
 
 <svelte:head>
@@ -12,3 +14,5 @@
 <a href="https://www.youtube.com/watch?v=QjMl4usaKGA&list=PLoKaNN3BjQX3fG-XOSwsPHtnV8FUY6lgK&index=1" target="_blank">Li Hau Tan - Svelte Store: The Introduction</a>
 
 <InputText />
+
+<InputText2 />
