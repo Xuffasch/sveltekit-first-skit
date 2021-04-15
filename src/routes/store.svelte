@@ -1,7 +1,9 @@
 <script>
-  import InputText from '$components/stores/js/InputWithStore.svelte';
+  import InputText from '$components/stores/0-js/InputWithStore.svelte';
 
-  import InputText2 from '$components/stores/writable/InputWithWritable.svelte';
+  import InputText2 from '$components/stores/1-writable/InputWithWritable.svelte';
+
+  import OutputText from '$components/stores/2-readable/OutputWithReadable.svelte';
 </script>
 
 <svelte:head>
@@ -16,3 +18,5 @@
 <InputText />
 
 <InputText2 />
+
+<OutputText />
