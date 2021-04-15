@@ -3,6 +3,7 @@
   <a href="/endpoint">Deep Endpoint</a>
   <a href="/settings">Submenu</a>
   <a href="/tooltip">Tooltip</a>
+  <a href="/store">Store</a>
 </nav>
 
 <style>
