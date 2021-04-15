@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-	<title>Welcome to my svelteKit (Beta) homepage</title>
+	<title>SvelteKit Endpoint use cases study</title>
 </svelte:head>
 
 <h1>Load data from deep endpoint</h1>

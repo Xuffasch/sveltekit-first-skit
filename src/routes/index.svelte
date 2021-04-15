@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>About page for the first svelteKit app (Beta)</title>
+	<title>SvelteKit (Beta) app for learning</title>
 </svelte:head>
 
 <h1>Svelte Kit (beta) for learning</h1>

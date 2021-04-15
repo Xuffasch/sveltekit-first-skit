@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-	<title>Settings page</title>
+	<title>SvelteKit (Beta) Nested Pages and Menu use cases study</title>
 </svelte:head>
 
 <h1>Nested Page and submenu</h1>
