@@ -1,5 +1,5 @@
 <script>
-  import { update } from "./data.js"
+  import { value, update } from "./data.js"
 </script>
 
 <label for="storedText">
@@ -7,6 +7,7 @@
   <input 
     id="storedtext" 
     type="text"
+    value={value}
     on:keyup="{ event => update(event.target.value)}"
   >
 </label>

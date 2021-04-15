@@ -1,5 +1,5 @@
 // Value stored, maintained and exposed by data.js
-export let value = "";
+export let value = "super cool";
 
 // function to update the stored value
 export function update(newValue) {
