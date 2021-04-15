@@ -36,9 +36,14 @@
 	<title>Settings page</title>
 </svelte:head>
 
-<h1>Settings Page</h1>
+<h1>Nested Page and submenu</h1>
 
-<ul>
+<h2>Purpose of this page</h2>
+<p>Retrieve and display data from an endpoint</p>
+<p>Display a subset of "settings" pages (profile, notifications) acessible with its own menu</p>
+
+
+<ul class="display-items">
 	{#each res as setting}
 		<li>
 			<div>

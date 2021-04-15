@@ -1,7 +1,8 @@
 <nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/settings">Settings</a>
+  <a href="/">About</a>
+  <a href="/endpoint">Deep Endpoint</a>
+  <a href="/settings">Submenu</a>
+  <a href="/tooltip">Tooltip</a>
 </nav>
 
 <style>

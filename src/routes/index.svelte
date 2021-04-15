@@ -1,59 +1,18 @@
-<script context="module">
-	export async function load({ page, fetch, session, context }) {
-		const { host, path, params, query } = page;
-
-		console.log("host : ", host);
-		console.log("params : ", params);
-		console.log("query : ", query);
-		console.log("path : ", path);
-
-		const url = `/data/home/usage-principals.js`;
-		const res = await fetch(url);
-		const results = await res.json();
-		console.log("fetch result : ", results); 
-
-		if (res.ok) {
-			const { requested, kind, result, count } = results;
-
-			return {
-				status: 200,
-				error: null,
-				props: {
-					requested: requested,
-					kind: kind,
-					features: result, 
-					count: count
-				}
-			}
-		}
-	}
-
-
-</script>
-
 <!-- Declare status and error props to silence warnings in the browser -->
 <script>
-	export let status, error;
-	export let requested, kind, features, count;
+  export let status;
+  export let error;
 </script>
 
 <svelte:head>
-	<title>Welcome to my svelteKit (Beta) homepage</title>
+	<title>About page for the first svelteKit app (Beta)</title>
 </svelte:head>
 
-<h1>SvelteKit App Use cases</h1>
+<h1>Svelte Kit (beta) for learning</h1>
+<p>This app is a compilation of svelte3 codes to learn the framework</p>
 
-<ul>
-	{#each features as feat}
-		<li>
-			<div>
-				<h2>{feat.useCase}</h2>
-				<p>{feat.description}</p>
-			</div>
-		</li>
-	{/each}
-</ul>
+<h2>Purpose of this page</h2>
+<p>Create a simple page using a single file in the routes</p>
 
 <!-- Declare empty slot to silence warning in browser -->
 <slot></slot>
-
