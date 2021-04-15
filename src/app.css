@@ -49,3 +49,8 @@ p {
 .display-items>li {
     margin: 0.5em;
 }
+
+.centering {
+    display: flex;
+    flex-direction: column;
+}
