@@ -8,6 +8,8 @@
   import ContractText from '$components/stores/3-contract/ContractData.svelte';
 
   import CounterRedux from '$components/stores/4-redux/CounterRedux.svelte';
+
+  import CounterValtio from '$components/stores/5-valtio/OutputWithValtio.svelte';
 </script>
 
 <svelte:head>
@@ -28,3 +30,5 @@
 <ContractText />
 
 <CounterRedux />
+
+<CounterValtio />

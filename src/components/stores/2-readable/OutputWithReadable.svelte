@@ -8,7 +8,7 @@
 </section>
 
 <style>
-  .yellow { 
+.yellow { 
   margin: 0.5em;
   padding: 1em;
   background-color: rgb(241, 238, 19);

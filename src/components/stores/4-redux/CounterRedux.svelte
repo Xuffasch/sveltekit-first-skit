@@ -36,7 +36,6 @@ onMount(() => {
     border-radius: 1em;
     background-color: rgb(228, 163, 163)
   }
-
   div {
     display: flex;
     justify-content: center;

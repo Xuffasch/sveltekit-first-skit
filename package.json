@@ -21,6 +21,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"redux": "^4.0.5"
+		"redux": "^4.0.5",
+		"valtio": "^1.0.3"
 	}
 }
