@@ -6,6 +6,8 @@
   import OutputText from '$components/stores/2-readable/OutputWithReadable.svelte';
 
   import ContractText from '$components/stores/3-contract/ContractData.svelte';
+
+  import CounterRedux from '$components/stores/4-redux/CounterRedux.svelte';
 </script>
 
 <svelte:head>
@@ -24,3 +26,5 @@
 <OutputText />
 
 <ContractText />
+
+<CounterRedux />
