@@ -53,4 +53,5 @@ p {
 .centering {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }

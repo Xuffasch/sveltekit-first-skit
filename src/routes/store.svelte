@@ -4,6 +4,8 @@
   import InputText2 from '$components/stores/1-writable/InputWithWritable.svelte';
 
   import OutputText from '$components/stores/2-readable/OutputWithReadable.svelte';
+
+  import ContractText from '$components/stores/3-contract/ContractData.svelte';
 </script>
 
 <svelte:head>
@@ -20,3 +22,5 @@
 <InputText2 />
 
 <OutputText />
+
+<ContractText />
