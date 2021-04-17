@@ -18,7 +18,7 @@
     What is the answer to everything ?
   </button>
   
-  <p>{current.matches('inactive') ? "" : "Javavscript of course !"}</p>
+  <p>{current.matches('inactive') ? "" : "Javascript of course !"}</p>
 </div>
 
 <style>
