@@ -10,6 +10,8 @@
   import CounterRedux from '$components/stores/4-redux/CounterRedux.svelte';
 
   import CounterValtio from '$components/stores/5-valtio/OutputWithValtio.svelte';
+
+  import XStateText from '$components/stores/6-xstate/OutputWithXState.svelte';
 </script>
 
 <svelte:head>
@@ -32,3 +34,5 @@
 <CounterRedux />
 
 <CounterValtio />
+
+<XStateText />
