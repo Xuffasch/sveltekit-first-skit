@@ -55,3 +55,7 @@ p {
     flex-direction: column;
     width: 80%;
 }
+
+.page-content {
+    margin-top: 5em;
+}
