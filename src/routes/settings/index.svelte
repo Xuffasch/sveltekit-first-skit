@@ -36,7 +36,7 @@
 	<title>SvelteKit (Beta) Nested Pages and Menu use cases study</title>
 </svelte:head>
 
-<h1>Nested Page and submenu</h1>
+<h1 class="page-content">Nested Page and submenu</h1>
 
 <h2>Purpose of this page</h2>
 <p>Retrieve and display data from an endpoint</p>

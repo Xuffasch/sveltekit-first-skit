@@ -41,7 +41,7 @@
 	<title>SvelteKit Endpoint use cases study</title>
 </svelte:head>
 
-<h1>Load data from deep endpoint</h1>
+<h1 class="page-content">Load data from deep endpoint</h1>
 
 <h2>Purpose of this page</h2>
 <p>Retrieve and display data from an endpoint set in /src/routes/data/home/</p>

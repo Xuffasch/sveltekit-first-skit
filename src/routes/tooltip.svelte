@@ -8,7 +8,7 @@
   <title>Svelte Action use cases study</title>
 </svelte:head>
 
-<h1>Tooltip demo from Lin Hau Tan's</h1>
+<h1 class='page-content'>Tooltip demo from Lin Hau Tan's</h1>
 <a href="https://www.youtube.com/watch?v=0GqIoo66i0g" target="_blank">https://www.youtube.com/watch?v=0GqIoo66i0g</a>
 
 <h2>Purpose of the Page</h2>

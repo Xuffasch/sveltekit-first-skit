@@ -8,7 +8,7 @@
 	<title>SvelteKit (Beta) app for learning</title>
 </svelte:head>
 
-<h1>Svelte Kit (beta) for learning</h1>
+<h1 class='page-content'>Svelte Kit (beta) for learning</h1>
 <p>This app is a compilation of svelte3 codes to learn the framework</p>
 
 <h2>Purpose of this page</h2>
