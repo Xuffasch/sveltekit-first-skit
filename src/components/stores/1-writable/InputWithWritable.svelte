@@ -10,7 +10,7 @@
 </section>
 
 <style>
-    .red { 
+  .red { 
     margin: 0.5em;
     padding: 1em;
     background-color: rgb(228, 163, 163);

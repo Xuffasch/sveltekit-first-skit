@@ -11,7 +11,9 @@
 
   import CounterValtio from '$components/stores/5-valtio/OutputWithValtio.svelte';
 
-  import XStateText from '$components/stores/6-xstate/OutputWithXState.svelte';
+  // import XStateText from '$components/stores/6-xstate/OutputWithXState.svelte';
+
+  import DerivedGame from '$components/stores/8-derived/OutputDerived.svelte';
 </script>
 
 <svelte:head>
@@ -35,4 +37,6 @@
 
 <CounterValtio />
 
-<XStateText />
+<!-- <XStateText /> -->
+
+<DerivedGame />
