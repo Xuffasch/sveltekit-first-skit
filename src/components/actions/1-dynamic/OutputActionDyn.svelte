@@ -6,7 +6,7 @@
 </script>
 
 <div class="centering format-display red"> 
-  <h3>1. Simple action with passing parameters</h3>
+  <h3>2. Simple action with dynamic parameters</h3>
 
   <label for="hello">
     Say hello in your language 
