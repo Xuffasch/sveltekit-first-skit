@@ -8,6 +8,7 @@
   <a href="/settings">Submenu</a>
   <a href="/tooltip">Tooltip</a>
   <a href="/store">Store</a>
+  <a href="/actions">Actions</a>
   <OutputPosition class="left"/>
 </nav>
 

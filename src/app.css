@@ -59,3 +59,21 @@ p {
 .page-content {
     margin-top: 3em;
 }
+
+.format-display {
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: rgb(228, 163, 163);
+}
+
+.yellow {
+    background-color: rgb(241, 238, 19);
+}
