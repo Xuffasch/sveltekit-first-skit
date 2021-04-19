@@ -1,6 +1,8 @@
 <script>
   import OutputIntro from '$components/actions/0-intro/OutputActionIntro.svelte';
 
+  import OutputDyn from '$components/actions/1-dynamic/OutputActionDyn.svelte';
+
 </script>
 
 
@@ -16,3 +18,5 @@
 </a>
 
 <OutputIntro />
+
+<OutputDyn />
