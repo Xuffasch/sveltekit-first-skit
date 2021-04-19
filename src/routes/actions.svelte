@@ -3,6 +3,8 @@
 
   import OutputDyn from '$components/actions/1-dynamic/OutputActionDyn.svelte';
 
+  import OutputReuse from '$components/actions/2-action-reuse/OutputActionReuse.svelte';
+
 </script>
 
 
@@ -20,3 +22,5 @@
 <OutputIntro />
 
 <OutputDyn />
+
+<OutputReuse />
