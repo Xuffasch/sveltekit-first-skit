@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"flatpickr": "^4.6.9",
 		"redux": "^4.0.5",
 		"valtio": "^1.0.3",
 		"xstate": "^4.18.0"

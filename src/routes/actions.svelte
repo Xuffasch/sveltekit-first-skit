@@ -5,6 +5,8 @@
 
   import OutputReuse from '$components/actions/2-action-reuse/OutputActionReuse.svelte';
 
+  import OutputUI from '$components/actions/3-add-ui/OutputWithUI.svelte';
+
 </script>
 
 
@@ -24,3 +26,5 @@
 <OutputDyn />
 
 <OutputReuse />
+
+<OutputUI />
