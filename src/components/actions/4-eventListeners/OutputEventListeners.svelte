@@ -31,12 +31,12 @@
     <input bind:this={input6} use:focusNextListener bind:value={text3} type="text"/>
   </div>
 
-  <span>
+  <div style="display: flex; align-items: baseline">
     <h5>Find the secret code</h5>
     {#if unlocked}
     <p>You found the secret code {origin}!</p>
     {/if}
-  </span>
+  </div>
 
   <div style="display: flex; flex-wrap: wrap">
     <div style="display: flex; flex-direction: column;">
