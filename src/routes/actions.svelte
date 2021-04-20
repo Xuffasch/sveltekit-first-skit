@@ -7,6 +7,8 @@
 
   import OutputUI from '$components/actions/3-add-ui/OutputWithUI.svelte';
 
+  import OutputEventListeners from '$components/actions/4-eventListeners/OutputEventListeners.svelte';
+
 </script>
 
 
@@ -28,3 +30,5 @@
 <OutputReuse />
 
 <OutputUI />
+
+<OutputEventListeners />
