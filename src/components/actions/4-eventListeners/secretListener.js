@@ -1,4 +1,4 @@
-let secretListener = (node, {SECRET, unlock}) => {
+let secretListener = (node, {id, SECRET, unlock}) => {
   let keys = [];
   let timeId;
   
@@ -8,7 +8,7 @@ let secretListener = (node, {SECRET, unlock}) => {
     console.log(keys);
 
     if (keys.join(',') === SECRET) {
-      unlock();
+      unlock(id);
     }
 
     if (timeId) clearTimeout(timeId);

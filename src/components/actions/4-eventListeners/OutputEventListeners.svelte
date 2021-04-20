@@ -11,6 +11,10 @@
   let SECRET2="ArrowRight,ArrowLeft"
   let unlocked = false;
   let origin = 0;
+  let unlock = (source) => {
+    unlocked = !unlocked;
+    origin = source;
+  };
 </script>
 
 <div class="centering format-display yellow"> 
@@ -34,18 +38,32 @@
   <div style="display: flex; align-items: baseline">
     <h5>Find the secret code</h5>
     {#if unlocked}
-    <p>You found the secret code {origin}!</p>
+    <p style="margin-left: 2em;">You found the secret code {origin}!</p>
     {/if}
   </div>
 
   <div style="display: flex; flex-wrap: wrap">
     <div style="display: flex; flex-direction: column;">
       Code 1
-      <input use:secretListener={{ SECRET, unlock : () => { unlocked = !unlocked ; origin = 1} }} type="text" style=" flex-basis: 50%">
+      <input 
+        use:secretListener={{
+          id: 1, 
+          SECRET, 
+          unlock : unlock 
+        }} 
+        type="text" 
+        style=" flex-basis: 50%">
     </div>
     <div style="margin-left: 2em; display: flex; flex-direction: column;">
       Code 2
-      <input use:secretListener={{ SECRET: SECRET2, unlock : () => { unlocked = !unlocked ; origin = 2 } }} type="text" style=" flex-basis: 50%">
+      <input 
+        use:secretListener={{
+          id: 2, 
+          SECRET: SECRET2, 
+          unlock : unlock 
+        }} 
+        type="text" 
+        style=" flex-basis: 50%">
     </div>
 
   </div>
