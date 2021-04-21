@@ -9,6 +9,8 @@
 
   import OutputEventListeners from '$components/actions/4-eventListeners/OutputEventListeners.svelte';
 
+  import OutputCustomEvents from '$components/actions/5-customEvents/OutputCustomEvents.svelte';
+
 </script>
 
 
@@ -32,3 +34,5 @@
 <OutputUI />
 
 <OutputEventListeners />
+
+<OutputCustomEvents />
