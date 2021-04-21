@@ -17,8 +17,8 @@
   };
 </script>
 
-<div class="centering format-display yellow"> 
-  <h3>4. Add actions to multiple elements</h3>
+<div class="centering format-display red"> 
+  <h3>5. Add actions to multiple elements</h3>
 
   <h5>Add blur on Escape to input elements</h5>
   <div style="display: flex; flex-wrap: wrap">

@@ -21,7 +21,7 @@
 </svelte:head>
 
 <div class="format-display blue">
-  <h3>3. Integrate with UI library </h3>
+  <h3>4. Integrate with UI library </h3>
   <button style="padding: 1em 0.5em" use:calendar={{ showMonths : 2 }}>Date Picker</button>
 </div>
 
