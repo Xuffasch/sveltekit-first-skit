@@ -14,6 +14,8 @@
   // import XStateText from '$components/stores/6-xstate/OutputWithXState.svelte';
 
   import DerivedGame from '$components/stores/8-derived/OutputDerived.svelte';
+
+  import Departure from '$components/stores/11-context/Departure.svelte';
 </script>
 
 <svelte:head>
@@ -40,3 +42,5 @@
 <!-- <XStateText /> -->
 
 <DerivedGame />
+
+<Departure />
