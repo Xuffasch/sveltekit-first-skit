@@ -10,7 +10,7 @@
     }
 </script>
 
-<div class="centering format-display blue">
+<div class="centering format-display yellow">
   <h3>6. Send custom events with actions </h3>
   <div style="display: flex; align-items: baseline;">
     <label for="code">
@@ -26,8 +26,4 @@
       <p style="margin-top: 1em; margin-bottom: 1em;">{returnMessage}</p>
     {/if}
   </div>
-
-
-
-
 </div>

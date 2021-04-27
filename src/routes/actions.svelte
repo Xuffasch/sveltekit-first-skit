@@ -11,6 +11,8 @@
 
   import OutputCustomEvents from '$components/actions/5-customEvents/OutputCustomEvents.svelte';
 
+  import OutputActionOrder from '$components/actions/6-action-order/OutputActionOrder.svelte';
+
 </script>
 
 
@@ -36,3 +38,5 @@
 <OutputEventListeners />
 
 <OutputCustomEvents />
+
+<OutputActionOrder />
